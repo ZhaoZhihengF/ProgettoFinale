@@ -16,8 +16,8 @@ app.get('/AbbigliamentoFemminile',function(req,res){
 app.get('/AbbigliamentoBambini',function(req,res){
  res.sendFile(path.join(__dirname,'AbbigliamentoBambini.html'));
 });
-app.get('/Info',function(req,res){
- res.sendFile(path.join(__dirname,'Accesso.html')); 
+app.get('/info',function(req,res){
+ res.sendFile(path.join(__dirname,'info.html')); 
 });
 app.listen(3000, function () {
   console.log('Example app listening on port 3000!');
