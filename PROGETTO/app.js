@@ -16,7 +16,7 @@ app.get('/AbbigliamentoFemminile',function(req,res){
 app.get('/AbbigliamentoBambini',function(req,res){
  res.sendFile(path.join(__dirname,'AbbigliamentoBambini.html'));
 });
-app.get('/Accesso',function(req,res){
+app.get('/Info',function(req,res){
  res.sendFile(path.join(__dirname,'Accesso.html')); 
 });
 app.listen(3000, function () {
